@@ -131,14 +131,14 @@
         }
         
         // delete Account
-        row = [XLFormRowDescriptor formRowDescriptorWithTag:@"delAccount" rowType:XLFormRowDescriptorTypeButton title:NSLocalizedString(@"_delete_account_", nil)];
-        [row.cellConfig setObject:[UIColor redColor] forKey:@"textLabel.textColor"];
-        [row.cellConfig setObject:[UIFont systemFontOfSize:15.0]forKey:@"textLabel.font"];
-        [row.cellConfig setObject:[CCGraphics changeThemingColorImage:[UIImage imageNamed:@"trash"] width:50 height:50 color:[UIColor redColor]] forKey:@"imageView.image"];
-        [row.cellConfig setObject:@(NSTextAlignmentLeft) forKey:@"textLabel.textAlignment"];
-        row.action.formSelector = @selector(deleteAccount:);
-        if (listAccount.count == 0) row.disabled = @YES;
-        [section addFormRow:row];
+//        row = [XLFormRowDescriptor formRowDescriptorWithTag:@"delAccount" rowType:XLFormRowDescriptorTypeButton title:NSLocalizedString(@"_delete_account_", nil)];
+//        [row.cellConfig setObject:[UIColor redColor] forKey:@"textLabel.textColor"];
+//        [row.cellConfig setObject:[UIFont systemFontOfSize:15.0]forKey:@"textLabel.font"];
+//        [row.cellConfig setObject:[CCGraphics changeThemingColorImage:[UIImage imageNamed:@"trash"] width:50 height:50 color:[UIColor redColor]] forKey:@"imageView.image"];
+//        [row.cellConfig setObject:@(NSTextAlignmentLeft) forKey:@"textLabel.textAlignment"];
+//        row.action.formSelector = @selector(deleteAccount:);
+//        if (listAccount.count == 0) row.disabled = @YES;
+//        [section addFormRow:row];
     }
     
     // Section : USER INFORMATION -------------------------------------------

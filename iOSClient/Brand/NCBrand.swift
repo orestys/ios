@@ -31,7 +31,8 @@ class NCBrandColor: NSObject {
     }()
 
     // Color
-    @objc public let customer:              UIColor = UIColor(red: 0.0/255.0, green: 130.0/255.0, blue: 201.0/255.0, alpha: 1.0)    // BLU NC : #0082c9
+    @objc public let customer:              UIColor = UIColor(red: 24.0/255.0, green: 116.0/255.0, blue: 209.0/255.0, alpha: 1.0)
+    // BLU NC : #0082c9
     @objc public var customerText:          UIColor = .white
     
     @objc public var brand:                 UIColor                                                                                 // don't touch me
@@ -44,8 +45,8 @@ class NCBrandColor: NSObject {
     @objc public var textView:              UIColor = .black
     @objc public var seperator:             UIColor = UIColor(red: 235.0/255.0, green: 235.0/255.0, blue: 235.0/255.0, alpha: 1.0)
     @objc public var tabBar:                UIColor = .white
-    @objc public let nextcloud:             UIColor = UIColor(red: 0.0/255.0, green: 130.0/255.0, blue: 201.0/255.0, alpha: 1.0)
-    @objc public let nextcloudSoft:         UIColor = UIColor(red: 90.0/255.0, green: 160.0/255.0, blue: 210.0/255.0, alpha: 1.0)
+    @objc public let nextcloud:             UIColor = UIColor(red: 24.0/255.0, green: 116.0/255.0, blue: 209.0/255.0, alpha: 1.0)
+    @objc public let nextcloudSoft:         UIColor = UIColor(red: 24.0/255.0, green: 116.0/255.0, blue: 209.0/255.0, alpha: 1.0)
     @objc public let icon:                  UIColor = UIColor(red: 104.0/255.0, green: 104.0/255.0, blue: 104.0/255.0, alpha: 1.0)
     @objc public let optionItem:            UIColor = UIColor(red: 178.0/255.0, green: 178.0/255.0, blue: 178.0/255.0, alpha: 1.0)
     @objc public let graySoft:              UIColor = UIColor(red: 162.0/255.0, green: 162.0/255.0, blue: 162.0/255.0, alpha: 0.5)
@@ -74,7 +75,7 @@ class NCBrandColor: NSObject {
     @objc public let mailMe:                            String = "ios@nextcloud.com"
     @objc public let textCopyrightNextcloudiOS:         String = "Nextcloud for iOS %@ © 2019"
     @objc public let textCopyrightNextcloudServer:      String = "Nextcloud Server %@"
-    @objc public let loginBaseUrl:                      String = "https://cloud.nextcloud.com"
+    @objc public let loginBaseUrl:                      String = "https://documents.ecitapps.com"
     @objc public let pushNotificationServerProxy:       String = "https://push-notifications.nextcloud.com"
     @objc public let linkLoginHost:                     String = "https://nextcloud.com/install"
     @objc public let linkloginPreferredProviders:       String = "https://nextcloud.com/signup";
@@ -88,7 +89,7 @@ class NCBrandColor: NSObject {
     @objc public var folderDefaultAutoUpload:           String = "Photos"
     
     // Capabilities Group
-    @objc public let capabilitiesGroups:                String = "group.it.twsweb.Crypto-Cloud"
+    @objc public let capabilitiesGroups:                String = "group.com.ecit.documents"
     
     // User Agent
     @objc public var userAgent:                         String = "Nextcloud-iOS"                                    // Don't touch me !!
@@ -96,14 +97,14 @@ class NCBrandColor: NSObject {
     // Options
     @objc public let use_login_web_personalized:        Bool = false                                                // Don't touch me !!
     @objc public let use_default_auto_upload:           Bool = false
-    @objc public let use_themingColor:                  Bool = true
-    @objc public let use_themingBackground:             Bool = true
+    @objc public let use_themingColor:                  Bool = false
+    @objc public let use_themingBackground:             Bool = false
     @objc public let use_themingLogo:                   Bool = false     
     @objc public let use_middlewarePing:                Bool = false
     @objc public let use_storeLocalAutoUploadAll:       Bool = false
 
     @objc public let disable_intro:                     Bool = false
-    @objc public let disable_request_login_url:         Bool = false
+    @objc public let disable_request_login_url:         Bool = true
     @objc public let disable_multiaccount:              Bool = false
     @objc public let disable_manage_account:            Bool = false
     @objc public let disable_more_external_site:        Bool = false

@@ -119,7 +119,7 @@
     [buttonSignUp setTitle:NSLocalizedString(@"_sign_up_", nil) forState:UIControlStateNormal];
     buttonSignUp.titleLabel.font = [UIFont systemFontOfSize:14];
     [buttonSignUp setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    buttonSignUp.backgroundColor = [UIColor colorWithRed:25.0/255.0 green:89.0/255.0 blue:141.0/255.0 alpha:1.000];
+    buttonSignUp.backgroundColor = [UIColor colorWithRed:24.0/255.0 green:116.0/255.0 blue:209.0/255.0 alpha:1.000];
     [buttonSignUp addTarget:self action:@selector(signUp:) forControlEvents:UIControlEventTouchDown];
         
     [buttonView addSubview:buttonSignUp];
