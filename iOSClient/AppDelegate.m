@@ -33,6 +33,9 @@
 #import "NCBridgeSwift.h"
 #import "NCAutoUpload.h"
 #import "NCPushNotificationEncryption.h"
+@import AppCenter;
+@import AppCenterAnalytics;
+@import AppCenterCrashes;
 
 @interface AppDelegate () <UNUserNotificationCenterDelegate>
 {
@@ -49,6 +52,7 @@ PKPushRegistry *pushRegistry;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
     NSString *path;
     NSURL *dirGroup = [CCUtility getDirectoryGroup];
     
@@ -212,6 +216,11 @@ PKPushRegistry *pushRegistry;
         [review incrementAppRuns];
         [review showStoreReview];
     }
+    
+    [MSAppCenter start:@"95cbf63c-aa5b-42eb-a38c-2a38e3fc4de4" withServices:@[
+                                                                              [MSAnalytics class],
+                                                                              [MSCrashes class]
+                                                                              ]];
     
     return YES;
 }

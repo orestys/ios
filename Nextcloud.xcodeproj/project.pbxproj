@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8DABDD414D668679B1461AB8 /* Pods_File_Provider_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFF4391229A8C3E53779C29 /* Pods_File_Provider_Extension.framework */; };
+		9D6432EDCAF85D8988FBD677 /* Pods_Share.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F47978CFC91F0D7B42EC21 /* Pods_Share.framework */; };
+		DB2525CACA6B5164571EDDC1 /* Pods_Nextcloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A4C3C3252FD3C02A5738A02 /* Pods_Nextcloud.framework */; };
 		F700222C1EC479840080073F /* Custom.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F700222B1EC479840080073F /* Custom.xcassets */; };
 		F700222D1EC479840080073F /* Custom.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F700222B1EC479840080073F /* Custom.xcassets */; };
 		F70022B31EC4C9100080073F /* OCActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = F70022671EC4C9100080073F /* OCActivity.m */; };
@@ -625,6 +628,15 @@
 		08EA97451E6554FC004C83FA /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
 		08EA97461E6554FC004C83FA /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
 		08EA97471E6554FC004C83FA /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
+		15B1B6B58E1462C661104458 /* Pods-File Provider Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-File Provider Extension.debug.xcconfig"; path = "Target Support Files/Pods-File Provider Extension/Pods-File Provider Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		23B8DF9896AD7FBE3B260C78 /* Pods-File Provider Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-File Provider Extension.release.xcconfig"; path = "Target Support Files/Pods-File Provider Extension/Pods-File Provider Extension.release.xcconfig"; sourceTree = "<group>"; };
+		3A4C3C3252FD3C02A5738A02 /* Pods_Nextcloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nextcloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D25478A3BC72188607EA1AD /* Pods-Share.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Share.debug.xcconfig"; path = "Target Support Files/Pods-Share/Pods-Share.debug.xcconfig"; sourceTree = "<group>"; };
+		6AFF4391229A8C3E53779C29 /* Pods_File_Provider_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_File_Provider_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F47978CFC91F0D7B42EC21 /* Pods_Share.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Share.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE2FDA767096D78C7EF8519 /* Pods-Share.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Share.release.xcconfig"; path = "Target Support Files/Pods-Share/Pods-Share.release.xcconfig"; sourceTree = "<group>"; };
+		CD8369128D9916C6CC739400 /* Pods-Nextcloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nextcloud.debug.xcconfig"; path = "Target Support Files/Pods-Nextcloud/Pods-Nextcloud.debug.xcconfig"; sourceTree = "<group>"; };
+		E1AE1F638C4B0D68A1B7A8D9 /* Pods-Nextcloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nextcloud.release.xcconfig"; path = "Target Support Files/Pods-Nextcloud/Pods-Nextcloud.release.xcconfig"; sourceTree = "<group>"; };
 		F700222B1EC479840080073F /* Custom.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Custom.xcassets; sourceTree = "<group>"; };
 		F70022661EC4C9100080073F /* OCActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCActivity.h; sourceTree = "<group>"; };
 		F70022671EC4C9100080073F /* OCActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCActivity.m; sourceTree = "<group>"; };
@@ -1429,6 +1441,7 @@
 				F79918A42199806500C2E308 /* UICKeyChainStore.framework in Frameworks */,
 				F70A630F1D5B3467004E2AA5 /* libssl.a in Frameworks */,
 				F70A630B1D5B3467004E2AA5 /* libcrypto.a in Frameworks */,
+				9D6432EDCAF85D8988FBD677 /* Pods_Share.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1442,6 +1455,7 @@
 				F79918A52199816500C2E308 /* UICKeyChainStore.framework in Frameworks */,
 				F771E3FF20E23C3A00AFB62D /* libssl.a in Frameworks */,
 				F771E40020E23C3D00AFB62D /* libcrypto.a in Frameworks */,
+				8DABDD414D668679B1461AB8 /* Pods_File_Provider_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1478,12 +1492,26 @@
 				F7BB14961D5B62C000ECEE68 /* libcrypto.a in Frameworks */,
 				F7BB14971D5B62C000ECEE68 /* libssl.a in Frameworks */,
 				F70F2BA5225F2D8900EBB73E /* ZIPFoundation.framework in Frameworks */,
+				DB2525CACA6B5164571EDDC1 /* Pods_Nextcloud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		238C379FE1B647952C8C831A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15B1B6B58E1462C661104458 /* Pods-File Provider Extension.debug.xcconfig */,
+				23B8DF9896AD7FBE3B260C78 /* Pods-File Provider Extension.release.xcconfig */,
+				CD8369128D9916C6CC739400 /* Pods-Nextcloud.debug.xcconfig */,
+				E1AE1F638C4B0D68A1B7A8D9 /* Pods-Nextcloud.release.xcconfig */,
+				3D25478A3BC72188607EA1AD /* Pods-Share.debug.xcconfig */,
+				AFE2FDA767096D78C7EF8519 /* Pods-Share.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F70022561EC4C9100080073F /* OCCommunicationLib */ = {
 			isa = PBXGroup;
 			children = (
@@ -2781,6 +2809,7 @@
 				F7FC7D651DC1F98700BB2C6A /* Products */,
 				F7FC7D541DC1F93700BB2C6A /* Frameworks */,
 				F771E3D020E2392D00AFB62D /* File Provider Extension.appex */,
+				238C379FE1B647952C8C831A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -2893,6 +2922,9 @@
 				08EA97471E6554FC004C83FA /* GoogleToolboxForMac.framework */,
 				08DC3BD41E64727E00F036D3 /* AdSupport.framework */,
 				F7FC7D551DC1F93800BB2C6A /* libz.tbd */,
+				6AFF4391229A8C3E53779C29 /* Pods_File_Provider_Extension.framework */,
+				3A4C3C3252FD3C02A5738A02 /* Pods_Nextcloud.framework */,
+				95F47978CFC91F0D7B42EC21 /* Pods_Share.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2939,6 +2971,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7145A251D12E3B700CAFEEC /* Build configuration list for PBXNativeTarget "Share" */;
 			buildPhases = (
+				E5ECE0FD440924628F5C64E1 /* [CP] Check Pods Manifest.lock */,
 				F71459B51D12E3B700CAFEEC /* Sources */,
 				F7145A141D12E3B700CAFEEC /* Frameworks */,
 				F7145A181D12E3B700CAFEEC /* Resources */,
@@ -2956,6 +2989,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F771E3EF20E2392E00AFB62D /* Build configuration list for PBXNativeTarget "File Provider Extension" */;
 			buildPhases = (
+				974B3263014312B1E3FAC885 /* [CP] Check Pods Manifest.lock */,
 				F771E3CC20E2392D00AFB62D /* Sources */,
 				F771E3CD20E2392D00AFB62D /* Frameworks */,
 				F771E3CE20E2392D00AFB62D /* Resources */,
@@ -2973,6 +3007,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F77B0F9A1D118A16002130FE /* Build configuration list for PBXNativeTarget "Nextcloud" */;
 			buildPhases = (
+				81B7185DE9AB31FBAB0BD4F8 /* [CP] Check Pods Manifest.lock */,
 				F77B0DEF1D118A16002130FE /* Sources */,
 				F77B0EDC1D118A16002130FE /* Frameworks */,
 				F77B0EE91D118A16002130FE /* Resources */,
@@ -3278,6 +3313,72 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		81B7185DE9AB31FBAB0BD4F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nextcloud-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		974B3263014312B1E3FAC885 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-File Provider Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5ECE0FD440924628F5C64E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Share-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F73B02C01DC0F1C900EC2C33 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -3828,6 +3929,7 @@
 /* Begin XCBuildConfiguration section */
 		F7145A261D12E3B700CAFEEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D25478A3BC72188607EA1AD /* Pods-Share.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				APPLICATION_EXTENSION_API_ONLY = NO;
@@ -3869,6 +3971,7 @@
 		};
 		F7145A271D12E3B700CAFEEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFE2FDA767096D78C7EF8519 /* Pods-Share.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				APPLICATION_EXTENSION_API_ONLY = NO;
@@ -3909,6 +4012,7 @@
 		};
 		F771E3F020E2392E00AFB62D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15B1B6B58E1462C661104458 /* Pods-File Provider Extension.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				APPLICATION_EXTENSION_API_ONLY = NO;
@@ -3957,6 +4061,7 @@
 		};
 		F771E3F120E2392E00AFB62D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23B8DF9896AD7FBE3B260C78 /* Pods-File Provider Extension.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				APPLICATION_EXTENSION_API_ONLY = NO;
@@ -4003,6 +4108,7 @@
 		};
 		F77B0F9B1D118A16002130FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD8369128D9916C6CC739400 /* Pods-Nextcloud.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -4027,8 +4133,14 @@
 				INFOPLIST_FILE = "$(SRCROOT)/iOSClient/Brand/iOSClient.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				LIBRARY_SEARCH_PATHS = "\"Libraries external/openssl\"";
-				OTHER_LDFLAGS = "-ObjC";
+				LIBRARY_SEARCH_PATHS = (
+					"\"Libraries external/openssl\"",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ecit.documents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -4045,6 +4157,7 @@
 		};
 		F77B0F9C1D118A16002130FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1AE1F638C4B0D68A1B7A8D9 /* Pods-Nextcloud.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -4070,8 +4183,14 @@
 				INFOPLIST_FILE = "$(SRCROOT)/iOSClient/Brand/iOSClient.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				LIBRARY_SEARCH_PATHS = "\"Libraries external/openssl\"";
-				OTHER_LDFLAGS = "-ObjC";
+				LIBRARY_SEARCH_PATHS = (
+					"\"Libraries external/openssl\"",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ecit.documents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
