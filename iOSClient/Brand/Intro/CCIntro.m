@@ -158,48 +158,48 @@
     page1.bgColor = [[NCBrandColor sharedInstance] customer];
     page1.showTitleView = YES;
 
-    EAIntroPage *page2 = [EAIntroPage page];
-
-    page2.titleIconView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"intro2"]];
-    page2.titleIconPositionY = titleIconPositionY;
-
-    page2.title = NSLocalizedString(@"_intro_2_title_", nil);
-    page2.titlePositionY = titlePositionY;
-    page2.titleColor = [[NCBrandColor sharedInstance] customerText];
-    page2.titleFont = [UIFont systemFontOfSize:23];
-    
-    page2.bgColor = [[NCBrandColor sharedInstance] customer];
-    page2.showTitleView = YES;
-
-    EAIntroPage *page3 = [EAIntroPage page];
-    
-    page3.titleIconView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"intro3"]];
-    page3.titleIconPositionY = titleIconPositionY;
-
-    page3.title = NSLocalizedString(@"_intro_3_title_", nil);
-    page3.titlePositionY = titlePositionY;
-    page3.titleColor = [[NCBrandColor sharedInstance] customerText];
-    page3.titleFont = [UIFont systemFontOfSize:23];
-    
-    page3.bgColor = [[NCBrandColor sharedInstance] customer];
-    page3.showTitleView = YES;
-
-    EAIntroPage *page4 = [EAIntroPage page];
-    
-    page4.titleIconView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"intro4"]];
-    page4.titleIconPositionY = titleIconPositionY;
-    
-    page4.title = NSLocalizedString(@"_intro_4_title_", nil);
-    page4.titlePositionY = titlePositionY;
-    page4.titleColor = [[NCBrandColor sharedInstance] customerText];
-    page4.titleFont = [UIFont systemFontOfSize:23];
-    
-    page4.bgColor = [[NCBrandColor sharedInstance] customer];
-    page4.showTitleView = YES;
+//    EAIntroPage *page2 = [EAIntroPage page];
+//
+//    page2.titleIconView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"intro2"]];
+//    page2.titleIconPositionY = titleIconPositionY;
+//
+//    page2.title = NSLocalizedString(@"_intro_2_title_", nil);
+//    page2.titlePositionY = titlePositionY;
+//    page2.titleColor = [[NCBrandColor sharedInstance] customerText];
+//    page2.titleFont = [UIFont systemFontOfSize:23];
+//
+//    page2.bgColor = [[NCBrandColor sharedInstance] customer];
+//    page2.showTitleView = YES;
+//
+//    EAIntroPage *page3 = [EAIntroPage page];
+//
+//    page3.titleIconView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"intro3"]];
+//    page3.titleIconPositionY = titleIconPositionY;
+//
+//    page3.title = NSLocalizedString(@"_intro_3_title_", nil);
+//    page3.titlePositionY = titlePositionY;
+//    page3.titleColor = [[NCBrandColor sharedInstance] customerText];
+//    page3.titleFont = [UIFont systemFontOfSize:23];
+//
+//    page3.bgColor = [[NCBrandColor sharedInstance] customer];
+//    page3.showTitleView = YES;
+//
+//    EAIntroPage *page4 = [EAIntroPage page];
+//
+//    page4.titleIconView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"intro4"]];
+//    page4.titleIconPositionY = titleIconPositionY;
+//
+//    page4.title = NSLocalizedString(@"_intro_4_title_", nil);
+//    page4.titlePositionY = titlePositionY;
+//    page4.titleColor = [[NCBrandColor sharedInstance] customerText];
+//    page4.titleFont = [UIFont systemFontOfSize:23];
+//
+//    page4.bgColor = [[NCBrandColor sharedInstance] customer];
+//    page4.showTitleView = YES;
     
     // INTRO
     
-    self.intro = [[EAIntroView alloc] initWithFrame:self.rootView.bounds andPages:@[page1,page2,page3,page4]];
+    self.intro = [[EAIntroView alloc] initWithFrame:self.rootView.bounds andPages:@[page1/*,page2,page3,page4*/]];
 
     self.intro.tapToNext = NO;
     self.intro.pageControlY = height - buttonPosition + 50;
