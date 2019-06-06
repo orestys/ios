@@ -31,7 +31,7 @@ class NCBrandColor: NSObject {
     }()
 
     // Color
-    @objc public let customer:              UIColor = UIColor(red: 24.0/255.0, green: 116.0/255.0, blue: 209.0/255.0, alpha: 1.0)
+    @objc public let customer:              UIColor = UIColor(red: 0/255.0, green: 46/255.0, blue: 81/255.0, alpha: 1.0)
     // BLU NC : #0082c9
     @objc public var customerText:          UIColor = .white
     
@@ -45,8 +45,8 @@ class NCBrandColor: NSObject {
     @objc public var textView:              UIColor = .black
     @objc public var seperator:             UIColor = UIColor(red: 235.0/255.0, green: 235.0/255.0, blue: 235.0/255.0, alpha: 1.0)
     @objc public var tabBar:                UIColor = .white
-    @objc public let nextcloud:             UIColor = UIColor(red: 24.0/255.0, green: 116.0/255.0, blue: 209.0/255.0, alpha: 1.0)
-    @objc public let nextcloudSoft:         UIColor = UIColor(red: 24.0/255.0, green: 116.0/255.0, blue: 209.0/255.0, alpha: 1.0)
+    @objc public let nextcloud:             UIColor = UIColor(red: 0/255.0, green: 46/255.0, blue: 81/255.0, alpha: 1.0)
+    @objc public let nextcloudSoft:         UIColor = UIColor(red: 0/255.0, green: 46/255.0, blue: 81/255.0, alpha: 1.0)
     @objc public let icon:                  UIColor = UIColor(red: 104.0/255.0, green: 104.0/255.0, blue: 104.0/255.0, alpha: 1.0)
     @objc public let optionItem:            UIColor = UIColor(red: 178.0/255.0, green: 178.0/255.0, blue: 178.0/255.0, alpha: 1.0)
     @objc public let graySoft:              UIColor = UIColor(red: 162.0/255.0, green: 162.0/255.0, blue: 162.0/255.0, alpha: 0.5)

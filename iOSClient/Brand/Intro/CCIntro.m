@@ -112,17 +112,17 @@
     
     [buttonView addSubview:buttonLogin];
     
-    UIButton *buttonSignUp = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    buttonSignUp.frame = CGRectMake(50.0, 60.0, width - 100.0, 40.0);
-    buttonSignUp.layer.cornerRadius = 20;
-    buttonSignUp.clipsToBounds = YES;
-    [buttonSignUp setTitle:NSLocalizedString(@"_sign_up_", nil) forState:UIControlStateNormal];
-    buttonSignUp.titleLabel.font = [UIFont systemFontOfSize:14];
-    [buttonSignUp setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    buttonSignUp.backgroundColor = [UIColor colorWithRed:24.0/255.0 green:116.0/255.0 blue:209.0/255.0 alpha:1.000];
-    [buttonSignUp addTarget:self action:@selector(signUp:) forControlEvents:UIControlEventTouchDown];
-        
-    [buttonView addSubview:buttonSignUp];
+//    UIButton *buttonSignUp = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+//    buttonSignUp.frame = CGRectMake(50.0, 60.0, width - 100.0, 40.0);
+//    buttonSignUp.layer.cornerRadius = 20;
+//    buttonSignUp.clipsToBounds = YES;
+//    [buttonSignUp setTitle:NSLocalizedString(@"_sign_up_", nil) forState:UIControlStateNormal];
+//    buttonSignUp.titleLabel.font = [UIFont systemFontOfSize:14];
+//    [buttonSignUp setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+//    buttonSignUp.backgroundColor = [[NCBrandColor sharedInstance] customer];
+//    [buttonSignUp addTarget:self action:@selector(signUp:) forControlEvents:UIControlEventTouchDown];
+//
+//    [buttonView addSubview:buttonSignUp];
     
     UIButton *buttonHost = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     buttonHost.frame = CGRectMake(50.0, height - buttonPosition - 30.0 - safeAreaBottom, width - 100.0, 20.0);
