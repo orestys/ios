@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8DABDD414D668679B1461AB8 /* Pods_File_Provider_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFF4391229A8C3E53779C29 /* Pods_File_Provider_Extension.framework */; };
-		9D6432EDCAF85D8988FBD677 /* Pods_Share.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F47978CFC91F0D7B42EC21 /* Pods_Share.framework */; };
 		DB2525CACA6B5164571EDDC1 /* Pods_Nextcloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A4C3C3252FD3C02A5738A02 /* Pods_Nextcloud.framework */; };
 		F700222C1EC479840080073F /* Custom.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F700222B1EC479840080073F /* Custom.xcassets */; };
 		F700222D1EC479840080073F /* Custom.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F700222B1EC479840080073F /* Custom.xcassets */; };
@@ -1441,7 +1439,6 @@
 				F79918A42199806500C2E308 /* UICKeyChainStore.framework in Frameworks */,
 				F70A630F1D5B3467004E2AA5 /* libssl.a in Frameworks */,
 				F70A630B1D5B3467004E2AA5 /* libcrypto.a in Frameworks */,
-				9D6432EDCAF85D8988FBD677 /* Pods_Share.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1455,7 +1452,6 @@
 				F79918A52199816500C2E308 /* UICKeyChainStore.framework in Frameworks */,
 				F771E3FF20E23C3A00AFB62D /* libssl.a in Frameworks */,
 				F771E40020E23C3D00AFB62D /* libcrypto.a in Frameworks */,
-				8DABDD414D668679B1461AB8 /* Pods_File_Provider_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
