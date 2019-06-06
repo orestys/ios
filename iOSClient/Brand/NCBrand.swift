@@ -95,7 +95,7 @@ class NCBrandColor: NSObject {
     @objc public var userAgent:                         String = "Nextcloud-iOS"                                    // Don't touch me !!
     
     // Options
-    @objc public let use_login_web_personalized:        Bool = false                                                // Don't touch me !!
+    @objc public let use_login_web_personalized:        Bool = true                                                // Don't touch me !!
     @objc public let use_default_auto_upload:           Bool = false
     @objc public let use_themingColor:                  Bool = false
     @objc public let use_themingBackground:             Bool = false
@@ -103,9 +103,9 @@ class NCBrandColor: NSObject {
     @objc public let use_middlewarePing:                Bool = false
     @objc public let use_storeLocalAutoUploadAll:       Bool = false
 
-    @objc public let disable_intro:                     Bool = false
+    @objc public let disable_intro:                     Bool = true
     @objc public let disable_request_login_url:         Bool = true
-    @objc public let disable_multiaccount:              Bool = false
+    @objc public let disable_multiaccount:              Bool = true
     @objc public let disable_manage_account:            Bool = false
     @objc public let disable_more_external_site:        Bool = false
     @objc public let disable_openin_file:               Bool = false                                                // Don't touch me !!
