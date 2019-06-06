@@ -116,18 +116,18 @@
 
     // Section EXIT --------------------------------------------------------
     
-    section = [XLFormSectionDescriptor formSection];
-    [form addFormSection:section];
-    section.footerTitle = NSLocalizedString(@"_exit_footer_", nil);
+//    section = [XLFormSectionDescriptor formSection];
+//    [form addFormSection:section];
+//    section.footerTitle = NSLocalizedString(@"_exit_footer_", nil);
     
     // Exit
-    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"esci" rowType:XLFormRowDescriptorTypeButton title:NSLocalizedString(@"_exit_", nil)];
-    [row.cellConfig setObject:@(NSTextAlignmentLeft) forKey:@"textLabel.textAlignment"];
-    [row.cellConfig setObject:[UIColor redColor] forKey:@"textLabel.textColor"];
-    [row.cellConfig setObject:[UIFont systemFontOfSize:15.0]forKey:@"textLabel.font"];
-    [row.cellConfig setObject:[CCGraphics changeThemingColorImage:[UIImage imageNamed:@"exit"] width:50 height:50 color:[UIColor redColor]] forKey:@"imageView.image"];
-    row.action.formSelector = @selector(exitNextcloud:);
-    [section addFormRow:row];
+//    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"esci" rowType:XLFormRowDescriptorTypeButton title:NSLocalizedString(@"_exit_", nil)];
+//    [row.cellConfig setObject:@(NSTextAlignmentLeft) forKey:@"textLabel.textAlignment"];
+//    [row.cellConfig setObject:[UIColor redColor] forKey:@"textLabel.textColor"];
+//    [row.cellConfig setObject:[UIFont systemFontOfSize:15.0]forKey:@"textLabel.font"];
+//    [row.cellConfig setObject:[CCGraphics changeThemingColorImage:[UIImage imageNamed:@"exit"] width:50 height:50 color:[UIColor redColor]] forKey:@"imageView.image"];
+//    row.action.formSelector = @selector(exitNextcloud:);
+//    [section addFormRow:row];
 
     return [super initWithForm:form];
 }
