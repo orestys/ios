@@ -141,21 +141,21 @@
     [section addFormRow:row];
 
     // Section : INFORMATION ------------------------------------------------
-
-    section = [XLFormSectionDescriptor formSectionWithTitle:NSLocalizedString(@"_information_", nil)];
-    [form addFormSection:section];
+//
+//    section = [XLFormSectionDescriptor formSectionWithTitle:NSLocalizedString(@"_information_", nil)];
+//    [form addFormSection:section];
     
     // Acknowledgements
-    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"buttonLeftAligned" rowType:XLFormRowDescriptorTypeButton title:NSLocalizedString(@"_acknowledgements_", nil)];
-    [row.cellConfig setObject:[UIFont systemFontOfSize:15.0]forKey:@"textLabel.font"];
-    [row.cellConfig setObject:@(NSTextAlignmentLeft) forKey:@"textLabel.textAlignment"];
-    [row.cellConfig setObject:[UIColor blackColor] forKey:@"textLabel.textColor"];
-    [row.cellConfig setObject:[CCGraphics changeThemingColorImage:[UIImage imageNamed:@"acknowledgements"] width:50 height:50 color:[NCBrandColor sharedInstance].icon] forKey:@"imageView.image"];
-    row.action.formBlock = ^(XLFormRowDescriptor * sender){
-        [self performSegueWithIdentifier:@"AcknowledgementsSegue" sender:sender];
-        [self deselectFormRow:sender];
-    };
-    [section addFormRow:row];
+//    row = [XLFormRowDescriptor formRowDescriptorWithTag:@"buttonLeftAligned" rowType:XLFormRowDescriptorTypeButton title:NSLocalizedString(@"_acknowledgements_", nil)];
+//    [row.cellConfig setObject:[UIFont systemFontOfSize:15.0]forKey:@"textLabel.font"];
+//    [row.cellConfig setObject:@(NSTextAlignmentLeft) forKey:@"textLabel.textAlignment"];
+//    [row.cellConfig setObject:[UIColor blackColor] forKey:@"textLabel.textColor"];
+//    [row.cellConfig setObject:[CCGraphics changeThemingColorImage:[UIImage imageNamed:@"acknowledgements"] width:50 height:50 color:[NCBrandColor sharedInstance].icon] forKey:@"imageView.image"];
+//    row.action.formBlock = ^(XLFormRowDescriptor * sender){
+//        [self performSegueWithIdentifier:@"AcknowledgementsSegue" sender:sender];
+//        [self deselectFormRow:sender];
+//    };
+//    [section addFormRow:row];
     
     // Contact us mail
     /*

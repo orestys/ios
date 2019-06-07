@@ -75,7 +75,7 @@
     } else {
         row.selectorOptions = [[NSArray alloc] initWithObjects:@"", nil];
     }
-    
+
     // Avatar
     NSString *fileNamePath = [NSString stringWithFormat:@"%@/%@-%@.png", [CCUtility getDirectoryUserData], [CCUtility getStringUser:appDelegate.activeUser activeUrl:appDelegate.activeUrl], appDelegate.activeUser];
     
